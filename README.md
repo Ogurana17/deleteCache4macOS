@@ -32,3 +32,9 @@ crontab -e
 ```crontab_add
 1 */4 * * * /usr/local/bin/python3 "xxx/deleteCache.py"> "xxx/deleteCache.log"
 ```
+
+## 削除する範囲
+
+コード上では90日分を指定してます。変更したい場合はこの値を任意の値に変更してください。
+
+https://github.com/Ogurana17/deleteCache4macOS/blob/e2836b2a3eff761ce7b3b28160f74ac00479c09c/deleteCache.py#L8
