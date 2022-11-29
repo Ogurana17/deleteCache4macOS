@@ -1,15 +1,16 @@
 # deleteCache4macOS
+
 macOSのキャッシュファイルを削除します。
 
 ## 使い方
 
 動作にはpython3以降が必要です。
 
-```
+```brew
 brew install python
 ```
 
-[こちら](https://github.com/Ogurana17/deleteCache4macOS/archive/refs/heads/main.zip)からダウンロード。
+[こちら](https://github.com/Ogurana17/deleteCache4macOS/archive/refs/heads/main.zip)から本体をダウンロード。
 下記で必要なパッケージをインストール。
 
 ```pip
@@ -17,6 +18,9 @@ pip install -r requirements.txt
 ```
 
 ## 自動実行
+
+macOSにあるcrontabを利用します。
+ターミナルを開きます。
 
 ```crontab
 crontab -e
